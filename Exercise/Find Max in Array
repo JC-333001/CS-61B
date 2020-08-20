@@ -1,0 +1,20 @@
+public class ClassNameHere {
+2	    /** Returns the maximum value from m. */
+3	    public static int max(int[] m) {
+4	       int a = m[0];
+5	       for (int i = 1; i< m.length; i = i+1){
+6	          if (m[i] >= a){
+7	             a = m[i];
+8	          }
+9	       }
+10	        return a;
+11	    }
+12	    public static void main(String[] args) {
+13	       int[] numbers = new int[]{9, 2, 15, 2, 22, 10, 6}; 
+14	       System.out.println(max(numbers));
+15	    }
+16	}
+
+//  for (initialization; termination; increment) {
+//     statement(s)
+// }
